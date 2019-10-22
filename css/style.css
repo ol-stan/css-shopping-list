@@ -1,0 +1,183 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100vh;
+}
+
+body,
+form,
+div,
+p,
+a,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+table tr,
+table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+
+* {
+    transition: all .1s ease-in;
+}
+
+.content {
+    margin: 25px 25px;
+    background-color: #3B3F45;
+    text-align: center;
+    min-height: 550px;
+
+}
+
+.header {
+    background-color: #4A4F56;
+    padding: 0 0 10px 0;
+}
+
+.footer {
+    background-color: #4A4F56;
+    max-width: 600px;
+    margin: auto;
+
+}
+
+h1 {
+    font-size: 20px;
+    color: #EB7E7F;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+h2 {
+    font-size: 16px;
+    color: #EB7E7F;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.header span {
+    font-size: 16px;
+    padding: 0 0 10px 0;
+    color: #EB7E7F;
+}
+
+section {
+    margin: 40px;
+    vertical-align: middle;
+}
+
+.check-list:nth-child(2n) {
+    background-color: #7a7593;
+}
+
+.list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.check-list {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 40px;
+
+}
+
+.check-list:nth-child(even) {
+
+    background-color: #88839e;
+}
+
+.check-list:nth-child(odd) {
+    background-color: #7a7593;
+}
+
+.check-list:hover {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #645E79;
+    color: #ffffff;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+}
+
+.check-list:active {
+    background-color: #EB7E7F;
+}
+
+#first:after {
+    content: " ( for the next lessons about CSS )"
+}
+
+#second:after {
+    content: " ( for more CSS manipulations )"
+}
+
+#therd:after {
+    content: " ( becouse they are awesome )"
+}
+
+#fourth:after {
+    content: " ( hm... they always disappear )"
+}
+
+#six:after {
+    content: " ( for my friends )"
+}
+
+input[type="checkbox"]:checked+span {
+    color: #a3a0b5;
+    text-decoration: line-through;
+}
