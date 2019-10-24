@@ -130,16 +130,21 @@ section {
     font-size: 16px;
     color: #ffffff;
     line-height: 40px;
+}
 
+label {
+    display: block;
 }
 
 .check-list:nth-child(even) {
 
     background-color: #88839e;
+    border: 2px solid #88839e;
 }
 
 .check-list:nth-child(odd) {
     background-color: #7a7593;
+    border: 2px solid #7a7593;
 }
 
 .check-list:hover {
